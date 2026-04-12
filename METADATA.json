@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "uapd-object-detection",
+    "name": "UAPD Object Detection",
+    "short_name": "uapd-od",
+    "description": "Object detection packaging of UAPD (UAV Asphalt Pavement Distress Dataset), a UAV-captured pavement distress dataset with VOC box-level annotations.",
+    "year": 2022
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "Alligator crack",
+      "Block crack",
+      "Longitudinal crack",
+      "Oblique crack",
+      "Pothole",
+      "Repair",
+      "Transverse crack"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "UAV-mounted high-resolution RGB camera",
+    "resolution": "512x512 cropped tiles",
+    "lighting_conditions": "Outdoor road scenes under varying weather and illumination",
+    "capture_height_mm": "Not reported",
+    "geotagged": false
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "PASCAL VOC XML annotations for pavement distress categories",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Alligator crack",
+          "description": "Alligator/fatigue cracking distress",
+          "color": "#294F71"
+        },
+        {
+          "id": 2,
+          "name": "Block crack",
+          "description": "Block crack distress",
+          "color": "#529EE2"
+        },
+        {
+          "id": 3,
+          "name": "Longitudinal crack",
+          "description": "Longitudinal crack distress",
+          "color": "#7BED54"
+        },
+        {
+          "id": 4,
+          "name": "Oblique crack",
+          "description": "Oblique crack distress",
+          "color": "#A43DC5"
+        },
+        {
+          "id": 5,
+          "name": "Pothole",
+          "description": "Pothole distress",
+          "color": "#CD8C37"
+        },
+        {
+          "id": 6,
+          "name": "Repair",
+          "description": "Patched/repair area",
+          "color": "#F6DBA8"
+        },
+        {
+          "id": 7,
+          "name": "Transverse crack",
+          "description": "Transverse crack distress",
+          "color": "#202B1A"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 3151,
+    "n_annotations": 4972,
+    "n_images_with_annotations": 3151,
+    "average_annotations_per_image": 1.5779117740399873,
+    "image_format": "voc",
+    "class_distribution": {
+      "Longitudinal crack": 1339,
+      "Transverse crack": 1327,
+      "Alligator crack": 414,
+      "Oblique crack": 173,
+      "Repair": 1622,
+      "Block crack": 3,
+      "Pothole": 94
+    },
+    "split": {
+      "data": {
+        "n_images": 3151,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 3151
+      }
+    ],
+    "temporal_scope": "Published 2022"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Manually annotated VOC bounding boxes in source release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published benchmark dataset"
+  },
+  "authors": [
+    {
+      "name": "Junqing Zhu",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jingtao Zhong",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Tao Ma",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Xiaoming Huang",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Weiguang Zhang",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yang Zhou",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "No explicit license stated in source repository (public-use statement)",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/uapd-object-detection",
+    "download": "https://github.com/tantantetetao/UAPD-Pavement-Distress-Dataset/tree/main",
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0926580521004428",
+    "homepage": "https://github.com/tantantetetao/UAPD-Pavement-Distress-Dataset/tree/main"
+  },
+  "citation": {
+    "bibtex": "@article{zhu2022uapd,\n  title = {Pavement distress detection using convolutional neural networks with images captured via UAV},\n  author = {Zhu, Junqing and Zhong, Jingtao and Ma, Tao and Huang, Xiaoming and Zhang, Weiguang and Zhou, Yang},\n  journal = {Automation in Construction},\n  volume = {133},\n  pages = {103991},\n  year = {2022},\n  doi = {10.1016/j.autcon.2021.103991}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "road-damage",
+    "uapd",
+    "voc",
+    "uav",
+    "china"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "10.1016/j.autcon.2021.103991",
+    "article_title": "Pavement distress detection using convolutional neural networks with images captured via UAV",
+    "journal": "Automation in Construction",
+    "year": 2022
+  }
+}

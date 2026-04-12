@@ -1,0 +1,20 @@
+{
+  "total_images": 3151,
+  "total_annotations": 4972,
+  "total_classes": 7,
+  "splits_breakdown": {
+    "data": {
+      "images": 3151,
+      "annotations": 4972,
+      "classes": {
+        "Longitudinal crack": 1339,
+        "Transverse crack": 1327,
+        "Alligator crack": 414,
+        "Oblique crack": 173,
+        "Repair": 1622,
+        "Block crack": 3,
+        "Pothole": 94
+      }
+    }
+  }
+}
