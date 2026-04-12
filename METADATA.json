@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "uapd-object-detection",
-    "name": "UAPD Object Detection",
+    "name": "UAPD",
     "short_name": "uapd-od",
     "description": "Object detection packaging of UAPD (UAV Asphalt Pavement Distress Dataset), a UAV-captured pavement distress dataset with VOC box-level annotations.",
     "year": 2022
@@ -20,10 +20,16 @@
       "Pothole",
       "Repair",
       "Transverse crack"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    }
   },
   "imaging_setup": {
     "camera": "UAV-mounted high-resolution RGB camera",
+    "camera_viewpoint": [
+      "top-down"
+    ],
     "resolution": "512x512 cropped tiles",
     "lighting_conditions": "Outdoor road scenes under varying weather and illumination",
     "capture_height_mm": "Not reported",
@@ -82,7 +88,7 @@
   "statistics": {
     "n_images": 3151,
     "n_annotations": 4972,
-    "n_images_with_annotations": 3151,
+    "n_images_with_annotations": 3144,
     "average_annotations_per_image": 1.5779117740399873,
     "image_format": "voc",
     "class_distribution": {
@@ -97,7 +103,9 @@
     "split": {
       "data": {
         "n_images": 3151,
-        "percentage": 1.0
+        "percentage": 1.0,
+        "n_images_with_annotations": 3144,
+        "annotation_coverage": 0.9978
       }
     }
   },

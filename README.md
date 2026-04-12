@@ -1,8 +1,8 @@
-# UAPD Object Detection
+# UAPD
 
 ## Overview
 
-UAPD Object Detection is a task-specific package derived from the UAPD release for UAV pavement distress detection.
+UAPD is a task-specific package derived from the UAPD release for UAV pavement distress detection.
 
 - Task: object_detection
 - Images: 3151

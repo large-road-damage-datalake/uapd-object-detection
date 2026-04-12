@@ -1,6 +1,6 @@
 # Summary
 
-- Dataset package: UAPD Object Detection
+- Dataset package: UAPD
 - Source dataset: UAPD
 - Task: object_detection
 - Image count: 3151
