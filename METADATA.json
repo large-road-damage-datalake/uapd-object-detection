@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "uapd-object-detection",
-    "name": "UAPD Object Detection",
+    "name": "UAPD",
     "short_name": "uapd-od",
     "description": "Object detection packaging of UAPD (UAV Asphalt Pavement Distress Dataset), a UAV-captured pavement distress dataset with VOC box-level annotations.",
     "year": 2022
