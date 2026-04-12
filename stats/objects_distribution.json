@@ -1,51 +1,88 @@
 {
-  "type": "histogram",
-  "title": "Objects per image distribution",
-  "series": [
-    {
-      "name": "all_classes",
-      "data": [
-        {
-          "x": "0",
-          "y": 7
-        },
-        {
-          "x": "1",
-          "y": 1925
-        },
-        {
-          "x": "2",
-          "y": 812
-        },
-        {
-          "x": "3",
-          "y": 267
-        },
-        {
-          "x": "4",
-          "y": 95
-        },
-        {
-          "x": "5",
-          "y": 33
-        },
-        {
-          "x": "6",
-          "y": 9
-        },
-        {
-          "x": "7",
-          "y": 2
-        },
-        {
-          "x": "8",
-          "y": 0
-        },
-        {
-          "x": "9",
-          "y": 1
-        }
-      ]
-    }
-  ]
+  "type": "heatmap",
+  "title": "Objects on images - distribution for every class",
+  "x_labels": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "y_labels": [
+    "Repair",
+    "Longitudinal crack",
+    "Transverse crack",
+    "Alligator crack",
+    "Oblique crack",
+    "Pothole",
+    "Block crack"
+  ],
+  "z": [
+    [
+      2019,
+      780,
+      252,
+      69,
+      25,
+      5,
+      1
+    ],
+    [
+      2126,
+      769,
+      211,
+      32,
+      13,
+      0,
+      0
+    ],
+    [
+      2075,
+      853,
+      199,
+      20,
+      4,
+      0,
+      0
+    ],
+    [
+      2788,
+      316,
+      44,
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      3012,
+      110,
+      26,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      3083,
+      45,
+      20,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      3148,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "description": "Value = number of images where class has exactly x objects."
 }

@@ -1,38 +1,39 @@
 {
   "type": "treemap",
-  "title": "Class Treemap",
+  "title": "Average area of class objects on image",
   "series": [
     {
       "data": [
         {
           "x": "Repair",
-          "y": 1622
+          "y": 16.5927
         },
         {
           "x": "Longitudinal crack",
-          "y": 1339
+          "y": 5.4679
         },
         {
           "x": "Transverse crack",
-          "y": 1327
+          "y": 5.3577
         },
         {
           "x": "Alligator crack",
-          "y": 414
+          "y": 18.1247
         },
         {
           "x": "Oblique crack",
-          "y": 173
+          "y": 10.0149
         },
         {
           "x": "Pothole",
-          "y": 94
+          "y": 2.6642
         },
         {
           "x": "Block crack",
-          "y": 3
+          "y": 5.065
         }
       ]
     }
-  ]
+  ],
+  "value_unit": "%"
 }

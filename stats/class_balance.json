@@ -1,59 +1,68 @@
 {
   "columns": [
     "Class",
-    "Share(%)",
+    "Images",
     "Objects",
-    "Objects per image"
+    "Count on image, average",
+    "Area on image, average (%)"
   ],
   "data": [
     [
       "Repair",
-      32.62,
+      1132,
       1622,
-      0.515
+      1.4329,
+      16.5927
     ],
     [
       "Longitudinal crack",
-      26.93,
+      1025,
       1339,
-      0.425
+      1.3063,
+      5.4679
     ],
     [
       "Transverse crack",
-      26.69,
+      1076,
       1327,
-      0.421
+      1.2333,
+      5.3577
     ],
     [
       "Alligator crack",
-      8.33,
+      363,
       414,
-      0.131
+      1.1405,
+      18.1247
     ],
     [
       "Oblique crack",
-      3.48,
+      139,
       173,
-      0.055
+      1.2446,
+      10.0149
     ],
     [
       "Pothole",
-      1.89,
+      68,
       94,
-      0.03
+      1.3824,
+      2.6642
     ],
     [
       "Block crack",
-      0.06,
       3,
-      0.001
+      3,
+      1.0,
+      5.065
     ]
   ],
+  "description": "Images column counts images containing at least one object of class.",
   "options": {
     "sort": {
       "columnIndex": 2,
       "order": "desc"
     },
-    "pageSize": 50
+    "pageSize": 100
   }
 }

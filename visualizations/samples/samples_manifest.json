@@ -1,0 +1,153 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c4_Block_crack-Longitudinal_crack-Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0034_3_3.JPG",
+      "classes": [
+        "Block crack",
+        "Longitudinal crack",
+        "Oblique crack",
+        "Transverse crack"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c4_Block_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_01_c4_Block_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c1_Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0007_5_10.JPG",
+      "classes": [
+        "Oblique crack"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c1_Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_02_c1_Oblique_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c2_Pothole-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0134_1_6.JPG",
+      "classes": [
+        "Pothole",
+        "Transverse crack"
+      ],
+      "num_classes": 2,
+      "objects": 3,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c2_Pothole-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_03_c2_Pothole-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_Longitudinal_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0725_5_4.JPG",
+      "classes": [
+        "Longitudinal crack"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c1_Longitudinal_crack_annotated.png",
+      "annotation_file": "annotations/sample_04_c1_Longitudinal_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c2_Longitudinal_crack-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0018_2_6.JPG",
+      "classes": [
+        "Longitudinal crack",
+        "Transverse crack"
+      ],
+      "num_classes": 2,
+      "objects": 3,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_05_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c2_Alligator_crack-Longitudinal_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0012_5_6.JPG",
+      "classes": [
+        "Alligator crack",
+        "Longitudinal crack"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c2_Alligator_crack-Longitudinal_crack_annotated.png",
+      "annotation_file": "annotations/sample_06_c2_Alligator_crack-Longitudinal_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_Repair.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0077_1_6.JPG",
+      "classes": [
+        "Repair"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c1_Repair_annotated.png",
+      "annotation_file": "annotations/sample_07_c1_Repair_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_Repair.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0080_1_8.JPG",
+      "classes": [
+        "Repair"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c1_Repair_annotated.png",
+      "annotation_file": "annotations/sample_08_c1_Repair_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c2_Longitudinal_crack-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0050_5_8.JPG",
+      "classes": [
+        "Longitudinal crack",
+        "Transverse crack"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_09_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c1_Alligator_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0172_6_8.JPG",
+      "classes": [
+        "Alligator crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c1_Alligator_crack_annotated.png",
+      "annotation_file": "annotations/sample_10_c1_Alligator_crack_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}
