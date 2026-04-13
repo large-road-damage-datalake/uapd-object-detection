@@ -30,10 +30,16 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "512x512 cropped tiles",
+    "resolution": "512x512",
     "lighting_conditions": "Outdoor road scenes under varying weather and illumination",
     "capture_height_mm": "Not reported",
-    "geotagged": false
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "512x512",
+        "count": 3151
+      }
+    ]
   },
   "annotation_schema": [
     {

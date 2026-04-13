@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>crop512_512</folder>
 	<filename>0077_1_6.JPG</filename>
@@ -19,7 +20,7 @@
 		<bndbox>
 			<xmin>419</xmin>
 			<ymin>432</ymin>
-			<xmax>512</xmax>
+			<xmax>511</xmax>
 			<ymax>509</ymax>
 		</bndbox>
 	</object>
