@@ -27,7 +27,7 @@
     },
     {
       "file": "sample_02_c1_Oblique_crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0007_5_10.JPG",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0145_2_5.JPG",
       "classes": [
         "Oblique crack"
       ],
@@ -72,7 +72,7 @@
     },
     {
       "file": "sample_04_c1_Longitudinal_crack.jpg",
-      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\0725_5_4.JPG",
+      "source": "D:/PhD/Datasets/object_detection/UAPD/images\\1178_5_7.JPG",
       "classes": [
         "Longitudinal crack"
       ],

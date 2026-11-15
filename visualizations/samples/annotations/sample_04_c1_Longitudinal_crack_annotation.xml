@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>crop512_512</folder>
-	<filename>0011_5_4.JPG</filename>
-	<path>D:\UAVpic\tuoheng\crop512_512\0011_5_4.JPG</path>
+	<filename>1178_5_7.JPG</filename>
+	<path>F:\paper_writing\毕业论文\实测亮度调整\new\crop512_512\1178_5_7.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,10 +18,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>249</xmin>
+			<xmin>388</xmin>
 			<ymin>1</ymin>
-			<xmax>275</xmax>
-			<ymax>156</ymax>
+			<xmax>452</xmax>
+			<ymax>274</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -30,10 +30,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>215</xmin>
-			<ymin>157</ymin>
-			<xmax>251</xmax>
-			<ymax>476</ymax>
+			<xmin>315</xmin>
+			<ymin>274</ymin>
+			<xmax>420</xmax>
+			<ymax>506</ymax>
 		</bndbox>
 	</object>
 </annotation>
