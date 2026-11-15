@@ -2,10 +2,23 @@
   "total_images": 3151,
   "total_annotations": 4972,
   "total_classes": 7,
+  "annotated_images": 3144,
+  "annotation_coverage": 0.997778483021263,
+  "image_resolution_histogram": {
+    "512x512": 3151
+  },
+  "resolution_details": [
+    {
+      "resolution": "512x512",
+      "count": 3151
+    }
+  ],
   "splits_breakdown": {
     "data": {
       "images": 3151,
       "annotations": 4972,
+      "annotated_images": 3144,
+      "annotation_coverage": 0.997778483021263,
       "classes": {
         "Longitudinal crack": 1339,
         "Transverse crack": 1327,
@@ -14,6 +27,9 @@
         "Repair": 1622,
         "Block crack": 3,
         "Pothole": 94
+      },
+      "image_resolution_histogram": {
+        "512x512": 3151
       }
     }
   }

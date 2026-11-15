@@ -4,7 +4,7 @@
     "id": "uapd-object-detection",
     "name": "UAPD",
     "short_name": "uapd-od",
-    "description": "Object detection packaging of UAPD (UAV Asphalt Pavement Distress Dataset), a UAV-captured pavement distress dataset with VOC box-level annotations.",
+    "description": "Object detection packaging of UAPD (UAV Asphalt Pavement Distress Dataset), a UAV-captured pavement distress dataset with VOC box-level annotations. The 3,151 images are 512x512 tiles (named frame_row_col) cut from 371 source UAV frames.",
     "year": 2022
   },
   "project_context": {
@@ -22,13 +22,13 @@
     "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
-    "camera": "UAV-mounted high-resolution RGB camera",
+    "camera": "DJI M600 Pro six-motor UAV with a three-axis gimbal carrying a Sony Alpha 7R III (35.9 x 24.0 mm full-frame CMOS, 42 MP, 35 mm fixed lens, F2.8, 7952x5304 frames)",
     "camera_viewpoint": [
       "top-down"
     ],
     "resolution": "512x512",
     "lighting_conditions": "Outdoor road scenes under varying weather and illumination",
-    "capture_height_mm": "Not reported",
+    "capture_height_mm": 30000,
     "geotagged": false,
     "resolution_details": [
       {
@@ -127,8 +127,14 @@
         "annotation_coverage": 0.9978,
         "dataset_size": "205.42 MB",
         "dataset_size_bytes": 215396686,
-        "dataset_file_count": 6302
+        "dataset_file_count": 6302,
+        "annotated": true
       }
+    },
+    "n_images_in_annotated_splits": 3151,
+    "integrity": {
+      "annotation_files_without_image": 1,
+      "images_without_annotation_file": 1
     }
   },
   "geographic_coverage": {
@@ -141,7 +147,7 @@
     "temporal_scope": "Published 2022"
   },
   "quality_assurance": {
-    "annotation_quality": "Manually annotated VOC bounding boxes in source release",
+    "annotation_quality": "Manually annotated VOC bounding boxes in source release. The source lists six classes; 3 boxes in 3 images carry an additional 'Block crack' label. One annotation file (1177_4_8) has no matching image and one image (1177_4_3) has no annotation file.",
     "inter_annotator_agreement": "Not reported",
     "review_status": "Published benchmark dataset"
   },
